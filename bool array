@@ -1,0 +1,38 @@
+
+when you allocate the bool array, its values are filled with False. You do not need to initialize any values to False in your code.
+You should initialize values to True as required. You can loop over bool arrays with foreach or with for.
+ex:
+class Program
+{
+    static void Main()
+    {
+        //
+        // Initialize new bool array.
+        //
+        bool[] array = new bool[10];
+        array[0] = false; // <-- Not needed
+        array[1] = true;
+        array[2] = false; // <-- Not needed
+        array[3] = true;
+        //
+        // Loop through all values.
+        //
+        foreach (bool value in array)
+        {
+            Console.WriteLine(value);
+        }
+    }
+}
+
+Output
+
+False
+True
+False
+True
+False
+False
+False
+False
+False
+False
