@@ -1,0 +1,17 @@
+ 1.不是所有程式碼路徑都有傳回值	
+ A:可能沒有 return
+ 
+ 2.格式對齊
+ A:
+ https://www.itread01.com/content/1547763843.html
+ string output = String.Format("{0, 5}", i);
+                Console.Write(output);
+ 
+ 3.array
+ int[] step = { 0, -23, -10, 14, 25, 23, 10, -14, -25 };
+ bool[] chess = new bool[145];
+ 
+ 4.亂數
+ Random rnd = new Random();
+ int ran = rnd.Next(1,145);
+ 
